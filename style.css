@@ -1,0 +1,133 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+ul li{
+    list-style: none;
+}
+a{
+    text-decoration: none !important;
+}
+.topbar{
+    background-color: #316dc3;
+}
+.headbuttons button{
+    font-size: 14px !important;
+    background-color: #afd8af !important;
+    color: #000;
+}
+.header{
+    background-color: #f7f8fa;
+}
+.menu li{
+    display: inline-block;
+}
+.menu ul a{
+    padding: 8px 13px !important;
+    color: #000 !important;
+    border-radius: 16px;
+    font-size: 14px;
+}
+.menu ul a:hover{
+    background-color: #316dc3;
+    color: #fff !important;
+}
+.home{
+    background-color: #316dc3;
+    border-radius: 16px;
+}
+.menu ul .home {
+    color: #fff !important;
+}
+.first{
+    color: #316dc3;
+}
+.second{
+    color: #00ff00;
+}
+.text-secondary{
+    line-height: 1.6;
+}
+.counters{
+    background-color: #316dc3;
+    color: #fff;
+    padding-top: 100px;
+    padding-bottom: 100px;
+}
+.separator {
+    width: 70px;
+    height: 3px;
+    background-color: green;
+    display: block;
+}
+.projects{
+    padding-top: 100px;
+    padding-bottom: 100px;
+}
+.projects marquee {
+    height: 200px;
+    width: 290px;
+    line-height: 1.5;
+}
+ul li i {
+    color: #fff;
+}
+.connect ul li {
+    float: left;
+    cursor: pointer;
+    line-height: 1.7;
+    font-size: 14px;
+    background-color: rgb(49, 109, 217);
+    margin-right: 5px;
+    border-radius: 50%;
+}
+.connect ul li a {
+    padding-left: 4px;
+    line-height: 1.7;
+    position: relative;
+    top: 3px;
+    right: 2px;
+}
+.connect ul li a .fa {
+    color: white;
+    width: 30px;
+    height: 25px;
+}
+
+/* ______Media Query______ */
+
+@media screen and (min-width:600px) and (max-width:800px){
+    .social{
+        margin-left: -15px;
+    }
+    .headbuttons button{
+        margin-top: 2px;
+    }
+    .dastar h4{
+        margin-left: -45px;
+    }
+    .medical h4{
+        margin-left: -5px;
+    }
+    .education h4{
+        margin-left: -22px;
+    }
+    .house {
+     width: 220px;
+    }
+    .house img{
+        margin-left: -7px;
+    }
+    .projects marquee {
+        width: 250px;
+    }
+    .navbar{
+        flex-direction: column;
+    }
+    .home,.about,.mdia,.news,.donat{
+        margin-bottom: 30px;
+    }
+    .ss,.se,.fp{
+        margin-bottom: 27px;
+    }
+}
